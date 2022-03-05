@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    width:auto;
+    height: 50px;
+    background-color: #FF9A4B;
+}
+main {
+    width:960px;
+    margin:50px auto;
+    display: flex;
+}
+.blog {
+    width:310px;
+    background-color:#EEEEEE;
+    margin-right: 30px;
+    padding: 10px;
+    position: relative;
+}
+.blog-image {
+    height: 150px;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position:bottom;
+}
+.blog-image2 {
+    background-image:url(img/flow02.png);
+    height:150px;
+    background-size: cover;
+    background-position:bottom;
+}
+.blog-image3 {
+    background-image:url(img/flow03.png);
+    height:150px;
+    background-size: cover;
+    background-position:bottom;
+}
+.blog-item {
+    background-color: #FF9A4B;
+    color: #EEEEEE;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.blog-title {
+    margin:15px 0 10px;
+}
+footer {
+    width:auto;
+    height: 50px;
+    background-color: #aaaaaa;
+}
